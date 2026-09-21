@@ -31,8 +31,8 @@
     <tr align="center">
       <th align="center">주차</th>
       <th align="center">강의 / 논문</th>
-      <th align="center">자료 링크</th>
-      <th align="center">발표자</th>
+      <th align="center" nowrap><span style="white-space: nowrap;">자료 링크</span></th>
+      <th align="center" nowrap><span style="white-space: nowrap;">발표자</span></th>
       <th align="center">리뷰 업로드</th>
     </tr>
   </thead>
