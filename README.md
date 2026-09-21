@@ -41,126 +41,126 @@
       <td align="center" rowspan="3">1주차<br>(09/26)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=MMDNaeIFVy8">The ML Foundations of LLM Post-Training</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec0-prereq-review/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">조현영</td>
       <td align="center" rowspan="2"><a href="lecture/week-01/">lecture/week-01/</a></td>
     </tr>
     <tr>
       <td align="center"><a href="https://www.youtube.com/watch?v=o6l6tJQgUg4">Overview</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec1-chap1-3/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">김하종</td>
     </tr>
     <tr>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">정진웅</td>
       <td align="center"><a href="paper/week-01/">paper/week-01/</a></td>
     </tr>
     <tr>
       <td align="center" rowspan="3">2주차<br>(10/03)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=4gIwiSPmQkU">IFT, Reward Models, &amp; Rejection Sampling</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec2-chap4-5-9/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">김정연</td>
       <td align="center" rowspan="2"><a href="lecture/week-02/">lecture/week-02/</a></td>
     </tr>
     <tr>
       <td align="center"><a href="https://www.youtube.com/watch?v=K_Sj_-1BUMM">RL Motivation &amp; Math</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec3-chap6-p1/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">장우혁</td>
     </tr>
     <tr>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">박상혁</td>
       <td align="center"><a href="paper/week-02/">paper/week-02/</a></td>
     </tr>
     <tr>
       <td align="center" rowspan="3">3주차<br>(10/10)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=i-AIMpZHgeg">RL Implementation &amp; Practice</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec4-chap6-p2/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">정진웅</td>
       <td align="center" rowspan="2"><a href="lecture/week-03/">lecture/week-03/</a></td>
     </tr>
     <tr>
       <td align="center"><a href="https://www.youtube.com/watch?v=o4AB5xHIDdM">The Rise of Reasoning Models</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec5-chap7/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">조현영</td>
     </tr>
     <tr>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">김하종</td>
       <td align="center"><a href="paper/week-03/">paper/week-03/</a></td>
     </tr>
     <tr>
       <td align="center" rowspan="3">4주차<br>(10/17)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=6g6b4gvO-y0">Direct Preference Optimization</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec6-chap8-dpo/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">박상혁</td>
       <td align="center" rowspan="2"><a href="lecture/week-04/">lecture/week-04/</a></td>
     </tr>
     <tr>
       <td align="center"><a href="https://www.youtube.com/watch?v=6nyJ8y8ghsE">Synthetic Data and Modern Post-training Methods</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec7-chap12-synthetic-data/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">김정연</td>
     </tr>
     <tr>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">장우혁</td>
       <td align="center"><a href="paper/week-04/">paper/week-04/</a></td>
     </tr>
     <tr>
       <td align="center" rowspan="3">5주차<br>(10/24)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=Y2tv5vuaxFs">On &quot;Preferences&quot; and Preference Data</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec8-chap10-11-preferences/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">김하종</td>
       <td align="center" rowspan="2"><a href="lecture/week-05/">lecture/week-05/</a></td>
     </tr>
     <tr>
       <td align="center"><a href="https://www.youtube.com/watch?v=y04JhXpiI4s">Over-Optimization and RLHF's Bad Reputation</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec9-chap14-appb-overoptimization/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">정진웅</td>
     </tr>
     <tr>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">조현영</td>
       <td align="center"><a href="paper/week-05/">paper/week-05/</a></td>
     </tr>
     <tr>
       <td align="center" rowspan="3">6주차<br>(10/31)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=IwpYxANrpUs">Regularization in RL, Why RL Generalizes, and Why SFT Forgets</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec10-chap15-regularization/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">장우혁</td>
       <td align="center" rowspan="2"><a href="lecture/week-06/">lecture/week-06/</a></td>
     </tr>
     <tr>
       <td align="center"><a href="https://www.youtube.com/watch?v=GMry2DzC304">Tool Use, Function Calling and The Road to Agents</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec11-chap13-tools/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">박상혁</td>
     </tr>
     <tr>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">김정연</td>
       <td align="center"><a href="paper/week-06/">paper/week-06/</a></td>
     </tr>
     <tr>
       <td align="center" rowspan="3">7주차<br>(11/07)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=dFafQmClYq4">The Evolution of Frontier Model Evaluation</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec12-chap16-evals/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">조현영</td>
       <td align="center" rowspan="2"><a href="lecture/week-07/">lecture/week-07/</a></td>
     </tr>
     <tr>
       <td align="center"><a href="https://www.youtube.com/watch?v=xECWRYBxq1E">An Introduction to Character Training</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec13-chap17-character/slides.pdf">PDF</a></td>
-      <td align="center"></td>
+      <td align="center">김하종</td>
     </tr>
     <tr>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">정진웅</td>
       <td align="center"><a href="paper/week-07/">paper/week-07/</a></td>
     </tr>
   </tbody>
