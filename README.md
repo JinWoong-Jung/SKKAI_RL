@@ -13,177 +13,133 @@
 
 ## 참가 인원
 
-| 소속 세션 | 직책 | 이름 |
-| --- | --- | --- |
-| SKKAI ZERO 세션 | 멘토 | 정진웅 |
-| X | SKKAI 학회장 | 김하종 |
-| Multimodal AI 세션 | 세션장 | 김정연 |
-| Physical AI-Robotics 세션 | 세션원 | 조현영 |
-| On-Device AI Agent 세션 | 세션장 | 장우혁 |
-| AI4Science 세션 | 세션원 | 박상혁 |
+| 소속세션 | 이름 | 전공 | 기수 | 직책 |
+| :---: | :---: | :---: | :---: | :---: |
+| SKKAI ZERO | 정진웅 | 고려대학교 컴퓨터학과 | 2기 | 멘토 |
+| X | 김하종 | 성균관대학교 소프트웨어학과 | 1기 | 학회장 |
+| Multimodal AI | 김정연 | 성균관대학교 인공지능융합전공(소프트웨어학과) | 2기 | 세션장 |
+| Physical AI-Robotics | 조현영 | 성균관대학교 인공지능융합전공 | 2기 | 세션원 |
+| On-Device AI Agent | 장우혁 | 성균관대학교 인공지능융합전공 | 3기 | 세션장 |
+| AI4Science | 박상혁 | 성균관대학교 신소재공학부(전기전자공학부, 기계공학부) | 4기 | 세션원 |
 
 ## 주차별 발표자
 
 강의 제목은 [RLHF Book의 강의 목록](https://rlhfbook.com/course#extra-resources)에 기재된 제목을 사용했습니다. 논문 제목과 발표자는 정해진 뒤 기입합니다.
 
-<table>
-  <thead>
-    <tr>
-      <th>주차</th>
-      <th>강의 / 논문</th>
-      <th>강의 1 발표자</th>
-      <th>강의 2 발표자</th>
-      <th>논문 발표자</th>
-      <th>자료 링크</th>
+<table align="center">
+  <thead align="center">
+    <tr align="center">
+      <th align="center">주차</th>
+      <th align="center">강의 / 논문</th>
+      <th align="center">발표자</th>
+      <th align="center">자료 링크</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3">week-01</td>
-      <td>Lecture 0: The ML Foundations of LLM Post-Training</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td rowspan="2"><a href="lecture/week-01/">lecture/week-01/</a></td>
+      <td align="center" rowspan="3">1주차<br>(09/26)</td>
+      <td align="center">The ML Foundations of LLM Post-Training</td>
+      <td align="center"></td>
+      <td align="center" rowspan="2"><a href="lecture/week-01/">lecture/week-01/</a></td>
     </tr>
     <tr>
-      <td>Lecture 1: Overview</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td align="center">Overview</td>
+      <td align="center"></td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><a href="paper/week-01/">paper/week-01/</a></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"><a href="paper/week-01/">paper/week-01/</a></td>
     </tr>
     <tr>
-      <td rowspan="3">week-02</td>
-      <td>Lecture 2: IFT, Reward Models, &amp; Rejection Sampling</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td rowspan="2"><a href="lecture/week-02/">lecture/week-02/</a></td>
+      <td align="center" rowspan="3">2주차<br>(10/03)</td>
+      <td align="center">IFT, Reward Models, &amp; Rejection Sampling</td>
+      <td align="center"></td>
+      <td align="center" rowspan="2"><a href="lecture/week-02/">lecture/week-02/</a></td>
     </tr>
     <tr>
-      <td>Lecture 3: RL Motivation &amp; Math</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td align="center">RL Motivation &amp; Math</td>
+      <td align="center"></td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><a href="paper/week-02/">paper/week-02/</a></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"><a href="paper/week-02/">paper/week-02/</a></td>
     </tr>
     <tr>
-      <td rowspan="3">week-03</td>
-      <td>Lecture 4: RL Implementation &amp; Practice</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td rowspan="2"><a href="lecture/week-03/">lecture/week-03/</a></td>
+      <td align="center" rowspan="3">3주차<br>(10/10)</td>
+      <td align="center">RL Implementation &amp; Practice</td>
+      <td align="center"></td>
+      <td align="center" rowspan="2"><a href="lecture/week-03/">lecture/week-03/</a></td>
     </tr>
     <tr>
-      <td>Lecture 5: The Rise of Reasoning Models</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td align="center">The Rise of Reasoning Models</td>
+      <td align="center"></td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><a href="paper/week-03/">paper/week-03/</a></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"><a href="paper/week-03/">paper/week-03/</a></td>
     </tr>
     <tr>
-      <td rowspan="3">week-04</td>
-      <td>Lecture 6: Direct Preference Optimization</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td rowspan="2"><a href="lecture/week-04/">lecture/week-04/</a></td>
+      <td align="center" rowspan="3">4주차<br>(10/17)</td>
+      <td align="center">Direct Preference Optimization</td>
+      <td align="center"></td>
+      <td align="center" rowspan="2"><a href="lecture/week-04/">lecture/week-04/</a></td>
     </tr>
     <tr>
-      <td>Lecture 7: Synthetic Data and Modern Post-training Methods</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td align="center">Synthetic Data and Modern Post-training Methods</td>
+      <td align="center"></td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><a href="paper/week-04/">paper/week-04/</a></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"><a href="paper/week-04/">paper/week-04/</a></td>
     </tr>
     <tr>
-      <td rowspan="3">week-05</td>
-      <td>Lecture 8: On &quot;Preferences&quot; and Preference Data</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td rowspan="2"><a href="lecture/week-05/">lecture/week-05/</a></td>
+      <td align="center" rowspan="3">5주차<br>(10/24)</td>
+      <td align="center">On &quot;Preferences&quot; and Preference Data</td>
+      <td align="center"></td>
+      <td align="center" rowspan="2"><a href="lecture/week-05/">lecture/week-05/</a></td>
     </tr>
     <tr>
-      <td>Lecture 9: Over-Optimization and RLHF's Bad Reputation</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td align="center">Over-Optimization and RLHF's Bad Reputation</td>
+      <td align="center"></td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><a href="paper/week-05/">paper/week-05/</a></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"><a href="paper/week-05/">paper/week-05/</a></td>
     </tr>
     <tr>
-      <td rowspan="3">week-06</td>
-      <td>Lecture 10: Regularization in RL, Why RL Generalizes, and Why SFT Forgets</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td rowspan="2"><a href="lecture/week-06/">lecture/week-06/</a></td>
+      <td align="center" rowspan="3">6주차<br>(10/31)</td>
+      <td align="center">Regularization in RL, Why RL Generalizes, and Why SFT Forgets</td>
+      <td align="center"></td>
+      <td align="center" rowspan="2"><a href="lecture/week-06/">lecture/week-06/</a></td>
     </tr>
     <tr>
-      <td>Lecture 11: Tool Use, Function Calling and The Road to Agents</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td align="center">Tool Use, Function Calling and The Road to Agents</td>
+      <td align="center"></td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><a href="paper/week-06/">paper/week-06/</a></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"><a href="paper/week-06/">paper/week-06/</a></td>
     </tr>
     <tr>
-      <td rowspan="3">week-07</td>
-      <td>Lecture 12: The Evolution of Frontier Model Evaluation</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td rowspan="2"><a href="lecture/week-07/">lecture/week-07/</a></td>
+      <td align="center" rowspan="3">7주차<br>(11/07)</td>
+      <td align="center">The Evolution of Frontier Model Evaluation</td>
+      <td align="center"></td>
+      <td align="center" rowspan="2"><a href="lecture/week-07/">lecture/week-07/</a></td>
     </tr>
     <tr>
-      <td>Lecture 13: An Introduction to Character Training</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td align="center">An Introduction to Character Training</td>
+      <td align="center"></td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><a href="paper/week-07/">paper/week-07/</a></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"><a href="paper/week-07/">paper/week-07/</a></td>
     </tr>
   </tbody>
 </table>
