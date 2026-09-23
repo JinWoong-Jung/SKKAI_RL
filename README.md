@@ -5,7 +5,7 @@
 ## 스터디 개요
 
 - **일시:** 매주 토요일 16:00–18:00
-- **주간 학습량:** 강의 2편 + 논문 1편
+- **주간 학습량:** 1~7주차 강의 2편 + 논문 1편, 8주차 논문 3편
 - **주요 주제:** RLHF, RLVR, LLM post-training 및 관련 강화학습 기법
 - **진행 방식:** 매주 학습 자료와 논문을 나누어 공부하고, 발표와 토론 내용을 기록합니다.
 
@@ -24,7 +24,7 @@
 
 ## 주차별 발표자
 
-강의 제목은 [RLHF Book의 강의 목록](https://rlhfbook.com/course#extra-resources)에 기재된 제목을 사용했습니다. 논문 제목과 발표자는 정해진 뒤 기입합니다.
+강의 제목은 [RLHF Book의 강의 목록](https://rlhfbook.com/course#extra-resources)에 기재된 제목을 사용했습니다. 선정한 논문 10편은 1~7주차에 한 편씩, 8주차에 세 편을 배치했습니다.
 
 <table align="center">
   <thead align="center">
@@ -50,8 +50,8 @@
       <td align="center">김하종</td>
     </tr>
     <tr>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">Training Language Models to Follow Instructions with Human Feedback (NeurIPS 2022)</td>
+      <td align="center"><a href="https://arxiv.org/abs/2203.02155">paper</a></td>
       <td align="center">정진웅</td>
       <td align="center"><a href="paper/week-01/">paper/week-01/</a></td>
     </tr>
@@ -68,8 +68,8 @@
       <td align="center">장우혁</td>
     </tr>
     <tr>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">Direct Preference Optimization: Your Language Model is Secretly a Reward Model (NeurIPS 2023)</td>
+      <td align="center"><a href="https://arxiv.org/abs/2305.18290">paper</a></td>
       <td align="center">박상혁</td>
       <td align="center"><a href="paper/week-02/">paper/week-02/</a></td>
     </tr>
@@ -86,8 +86,8 @@
       <td align="center">조현영</td>
     </tr>
     <tr>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">Let's Verify Step by Step (ICLR 2024)</td>
+      <td align="center"><a href="https://arxiv.org/abs/2305.20050">paper</a></td>
       <td align="center">김하종</td>
       <td align="center"><a href="paper/week-03/">paper/week-03/</a></td>
     </tr>
@@ -104,8 +104,8 @@
       <td align="center">김정연</td>
     </tr>
     <tr>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (arXiv 2024)</td>
+      <td align="center"><a href="https://arxiv.org/abs/2402.03300">paper</a></td>
       <td align="center">장우혁</td>
       <td align="center"><a href="paper/week-04/">paper/week-04/</a></td>
     </tr>
@@ -122,8 +122,8 @@
       <td align="center">정진웅</td>
     </tr>
     <tr>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (Nature 2025)</td>
+      <td align="center"><a href="https://arxiv.org/abs/2501.12948">paper</a></td>
       <td align="center">조현영</td>
       <td align="center"><a href="paper/week-05/">paper/week-05/</a></td>
     </tr>
@@ -140,8 +140,8 @@
       <td align="center">박상혁</td>
     </tr>
     <tr>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">DAPO: An Open-Source LLM Reinforcement Learning System at Scale (NeurIPS 2025)</td>
+      <td align="center"><a href="https://arxiv.org/abs/2503.14476">paper</a></td>
       <td align="center">김정연</td>
       <td align="center"><a href="paper/week-06/">paper/week-06/</a></td>
     </tr>
@@ -158,10 +158,27 @@
       <td align="center">김하종</td>
     </tr>
     <tr>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">Understanding R1-Zero-Like Training: A Critical Perspective (COLM 2025)</td>
+      <td align="center"><a href="https://arxiv.org/abs/2503.20783">paper</a></td>
       <td align="center">정진웅</td>
       <td align="center"><a href="paper/week-07/">paper/week-07/</a></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="3">8주차<br>(11/14)</td>
+      <td align="center">Free Process Rewards without Process Labels (ICML 2025)</td>
+      <td align="center"><a href="https://arxiv.org/abs/2412.01981">paper</a></td>
+      <td align="center">김정연</td>
+      <td align="center" rowspan="3"><a href="paper/week-08/">paper/week-08/</a></td>
+    </tr>
+    <tr>
+      <td align="center">Process Reinforcement through Implicit Rewards (TMLR 2026)</td>
+      <td align="center"><a href="https://arxiv.org/abs/2502.01456">paper</a></td>
+      <td align="center">장우혁</td>
+    </tr>
+    <tr>
+      <td align="center">Visual-RFT: Visual Reinforcement Fine-Tuning (ICCV 2025)</td>
+      <td align="center"><a href="https://arxiv.org/abs/2503.01785">paper</a></td>
+      <td align="center">박상혁</td>
     </tr>
   </tbody>
 </table>
