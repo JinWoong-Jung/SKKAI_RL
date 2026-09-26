@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>LLM Post-Training Foundations</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 이동</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="학습 목차">
+      <div class="brand"><span class="brand-mark">λ</span><span><strong>LLM Foundations</strong><small>INTERACTIVE TEXTBOOK</small></span></div>
+      <div class="sidebar-progress"><div class="eyebrow">YOUR JOURNEY</div><div class="progress-heading"><strong id="progress-label">0%</strong><span id="progress-count">0 / 7 concepts</span></div><div class="progress-track"><span id="progress-fill"></span></div></div>
+      <nav id="side-nav"></nav>
+      <div class="sidebar-bottom"><button id="theme-toggle" class="quiet-button" type="button" aria-label="색상 모드 전환">◐ <span>색상 모드</span></button><button id="reset-progress" class="quiet-button danger" type="button">↺ <span>진행 상태 초기화</span></button><small>진행 상태는 이 브라우저에 저장됩니다.</small></div>
+    </aside>
+    <div class="main-column">
+      <header class="topbar"><button id="menu-toggle" class="icon-button mobile-only" type="button" aria-label="목차 열기">☰</button><span id="breadcrumb">Overview</span><span class="topbar-right">LEARN · PREDICT · RECONSTRUCT</span></header>
+      <main id="main" tabindex="-1"></main>
+    </div>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
