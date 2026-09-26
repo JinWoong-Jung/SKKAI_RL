@@ -11,10 +11,12 @@
 GPT-3 같은 pre-trained Language Model은 텍스트의 다음 토큰을 예측하도록 학습한다 (Next Token Prediction). 이를 loss function 수식으로 쓰면 다음과 같다.
 
 $$
+\begin{aligned}
 \mathcal{L}_{\mathrm{pretrain}}(\theta)
-=
+&=
 -\mathbb{E}_{x\sim\mathcal{D}_{\mathrm{pretrain}}}
 \left[\sum_t \log p_\theta(x_t\mid x_{<t})\right].
+\end{aligned}
 $$
 
 그러나 사용자는 다음 토큰을 그럴듯하게 이어 쓰는 것보다 지시(instruction)를 따르고, 던지는 질문에 유용하고 정확하게 답하며, 사실을 꾸며내지 않기를 기대한다. **사전학습 목표와 사용자가 원하는 행동 사이의 차이 (misaligned)**가 이 논문의 출발점이다.
@@ -51,10 +53,12 @@ $$
 Human labeler가 prompt $x$에 대해 바람직한 답변 $y_{\mathrm{demo}}$를 직접 작성한다. 이 데이터로 pre-trained GPT-3를 Supervised Fine-Tuning (SFT)하여 초기 policy $\pi_{\mathrm{SFT}}$를 만든다.
 
 $$
+\begin{aligned}
 \mathcal{L}_{\mathrm{SFT}}
-=
+&=
 -\mathbb{E}_{(x,y_{\mathrm{demo}})\sim\mathcal{D}_{\mathrm{SFT}}}
 \left[\log \pi_{\mathrm{SFT}}(y_{\mathrm{demo}}\mid x)\right].
+\end{aligned}
 $$
 
 Prompt는 주로 API에서 수집했고, 일부는 labeler가 작성했다.
@@ -94,19 +98,23 @@ $$
 선호 쌍에서 $y_w$가 $y_l$보다 낫다고 판단될 확률은 다음처럼 모델링한다.
 
 $$
+\begin{aligned}
 P_\theta(y_w\succ y_l\mid x)
-=
+&=
 \sigma\!\left(r_\theta(x,y_w)-r_\theta(x,y_l)\right),
+\end{aligned}
 $$
 
 한 프롬프트에서 모든 쌍을 얻었다면 보상 모델의 손실을 다음처럼 나타낼 수 있다.
 
 $$
+\begin{aligned}
 \mathcal{L}_{\mathrm{RM}}(\theta)
-=
+&=
 -\frac{1}{\binom{K}{2}}
 \sum_{(y_w,y_l)}
 \log \sigma\!\left(r_\theta(x,y_w)-r_\theta(x,y_l)\right).
+\end{aligned}
 $$
 
 이를 학습 프롬프트 전체에 평균 낸다. 선호도 예측에는 보상의 절대값보다 **두 답변의 점수 차이 (difference)**가 중요하다. 논문에서는 6B Reward Model을 사용한다. 175B는 학습 안정성과 계산 비용 면에서 불리했다.
@@ -122,11 +130,11 @@ SFT policy를 initial policy로 삼는다. 새 prompt $x$에 대해 policy $\pi_
 Reward Model의 점수만 극대화하면 모델이 Reward Model의 허점을 이용하는 **Reward Hacking**이 발생할 수 있다. 이는 모델이 여러 가지 편법 혹은 의도하지 않은 방법을 통해 최종 목표만 달성하도록 학습되는 것을 말하며, 구체적으로 추론 중간 과정을 아무렇게나 수행한 뒤 최종 정답만 형식적으로 맞추도록 학습되는 경우가 해당된다. 이를 줄이기 위해 **fixed SFT policy**을 reference policy로 두고, 다음의 로그 확률비에 비례하는 페널티를 부과한다.
 
 $$
+\begin{aligned}
 R(x,y)
-=
-r_\theta(x,y)
--
-\beta\log\frac{\pi_\phi(y\mid x)}{\pi_{\mathrm{SFT}}(y\mid x)}.
+&=
+r_\theta(x,y) - \beta\log\frac{\pi_\phi(y\mid x)}{\pi_{\mathrm{SFT}}(y\mid x)}.
+\end{aligned}
 $$
 
 논문 구현에서는 답변의 각 토큰에 이 페널티를 적용하며 $\beta=0.02$를 사용한다. 생성 답변에 대해 위 로그 확률비를 평균 내면 현재 정책과 SFT 정책 사이의 KL divergence가 된다. 따라서 **개별 답변에 부과하는 페널티는 로그 확률비**이고, **기댓값 수준에서 KL Regularization**으로 해석할 수 있다. PPO의 value function은 Reward Model에서 초기화한다.
