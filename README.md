@@ -92,7 +92,7 @@
       <td align="center"><a href="paper/week-03/">paper/week-03/</a></td>
     </tr>
     <tr>
-      <td align="center" rowspan="3">4주차<br>(10/24)</td>
+      <td align="center" rowspan="3">4주차<br>(10/31)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=6g6b4gvO-y0">Direct Preference Optimization</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec6-chap8-dpo/slides.pdf">PDF</a></td>
       <td align="center">김정연</td>
@@ -110,7 +110,7 @@
       <td align="center"><a href="paper/week-04/">paper/week-04/</a></td>
     </tr>
     <tr>
-      <td align="center" rowspan="3">5주차<br>(10/31)</td>
+      <td align="center" rowspan="3">5주차<br>(11/07)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=Y2tv5vuaxFs">On &quot;Preferences&quot; and Preference Data</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec8-chap10-11-preferences/slides.pdf">PDF</a></td>
       <td align="center">김하종</td>
@@ -128,7 +128,7 @@
       <td align="center"><a href="paper/week-05/">paper/week-05/</a></td>
     </tr>
     <tr>
-      <td align="center" rowspan="3">6주차<br>(11/07)</td>
+      <td align="center" rowspan="3">6주차<br>(11/14)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=IwpYxANrpUs">Regularization in RL, Why RL Generalizes, and Why SFT Forgets</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec10-chap15-regularization/slides.pdf">PDF</a></td>
       <td align="center">박상혁</td>
@@ -146,7 +146,7 @@
       <td align="center"><a href="paper/week-06/">paper/week-06/</a></td>
     </tr>
     <tr>
-      <td align="center" rowspan="3">7주차<br>(11/14)</td>
+      <td align="center" rowspan="3">7주차<br>(11/21)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=dFafQmClYq4">The Evolution of Frontier Model Evaluation</a></td>
       <td align="center"><a href="https://rlhfbook.com/teach/course/lec12-chap16-evals/slides.pdf">PDF</a></td>
       <td align="center">정진웅</td>
@@ -164,7 +164,7 @@
       <td align="center"><a href="paper/week-07/">paper/week-07/</a></td>
     </tr>
     <tr>
-      <td align="center" rowspan="2">8주차<br>(11/21)</td>
+      <td align="center" rowspan="2">8주차<br>(11/28)</td>
       <td align="center">Free Process Rewards without Process Labels (ICML 2025)</td>
       <td align="center"><a href="https://arxiv.org/abs/2412.01981">paper</a></td>
       <td align="center">조현영</td>
@@ -176,7 +176,7 @@
       <td align="center">김정연</td>
     </tr>
     <tr>
-      <td align="center" rowspan="2">9주차<br>(11/28)</td>
+      <td align="center" rowspan="2">9주차<br>(12/05)</td>
       <td align="center">Visual-RFT: Visual Reinforcement Fine-Tuning (ICCV 2025)</td>
       <td align="center"><a href="https://arxiv.org/abs/2503.01785">paper</a></td>
       <td align="center">박상혁</td>
