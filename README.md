@@ -5,7 +5,7 @@
 ## 스터디 개요
 
 - **일시:** 매주 토요일 16:00–18:00
-- **주간 학습량:** 1~7주차 강의 2편 + 논문 1편, 8주차 논문 2편, 9주차 논문 1편
+- **주간 학습량:** 1~4주차 강의 2편 + 논문 1편, 5~7주차 강의 2편, 8~10주차 논문 2편, 11주차 논문 1편
 - **주요 주제:** RLHF, RLVR, LLM post-training 및 관련 강화학습 기법
 - **진행 방식:** 매주 학습 자료와 논문을 나누어 공부하고, 발표와 토론 내용을 기록합니다.
 
@@ -18,13 +18,16 @@
 | SKKAI ZERO | 정진웅 | 고려대학교 | 컴퓨터학과 | 2기 | 멘토 |
 | - | 김하종 | 성균관대학교 | 소프트웨어학과 | 1기 | 학회장 |
 | Multimodal AI | 김정연 | 성균관대학교 | 인공지능융합전공 | 2기 | 세션장 |
-| Physical AI-Robotics | 조현영 | 성균관대학교 | 인공지능융합전공 | 3기 | 세션원 |
 | AI4Science | 박상혁 | 성균관대학교 | 신소재공학부(전기전자공학부, 기계공학부) | 4기 | 세션원 |
 | SKKAI ZERO | 이예성 | 성균관대학교 | 인공지능융합전공(소프트웨어학과) | 4기 | 세션원 |
 
 ## 주차별 발표자
 
 강의 제목은 [RLHF Book의 강의 목록](https://rlhfbook.com/course#extra-resources)에 기재된 제목을 사용했습니다.
+
+5주차(11/07)부터는 매주 강의 2편씩 진행하여 7주차(11/21)에 강의를 마칩니다. 이후 남은 논문 7편을 기존 순서대로 매주 2편씩 진행하며, 마지막 11주차(12/19)에는 논문 1편을 다룹니다.
+
+5주차부터 발표자는 **김하종 → 정진웅 → 이예성 → 김정연 → 박상혁** 순서로 순환합니다. 강의에서 논문으로 넘어갈 때도 순서를 이어갑니다.
 
 <table align="center">
   <thead align="center">
@@ -123,95 +126,96 @@
       <td align="center"><a href="paper/week-04/">paper/week-04/</a></td>
     </tr>
     <tr>
-      <td align="center" rowspan="3">5주차<br>(11/07)</td>
+      <td align="center" rowspan="2">5주차<br>(11/07)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=Y2tv5vuaxFs">On &quot;Preferences&quot; and Preference Data</a></td>
       <td align="center">lec_8</td>
-<td align="center"><a href="https://rlhfbook.com/teach/course/lec8-chap10-11-preferences/slides.pdf">PDF</a></td>
+      <td align="center"><a href="https://rlhfbook.com/teach/course/lec8-chap10-11-preferences/slides.pdf">PDF</a></td>
       <td align="center">김하종</td>
       <td align="center" rowspan="2"><a href="lecture/week-05/">lecture/week-05/</a></td>
     </tr>
     <tr>
       <td align="center"><a href="https://www.youtube.com/watch?v=y04JhXpiI4s">Over-Optimization and RLHF's Bad Reputation</a></td>
       <td align="center">lec_9</td>
-<td align="center"><a href="https://rlhfbook.com/teach/course/lec9-chap14-appb-overoptimization/slides.pdf">PDF</a></td>
+      <td align="center"><a href="https://rlhfbook.com/teach/course/lec9-chap14-appb-overoptimization/slides.pdf">PDF</a></td>
       <td align="center">정진웅</td>
     </tr>
     <tr>
-      <td align="center">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (Nature 2025)</td>
-      <td align="center">-</td>
-      <td align="center"><a href="https://arxiv.org/abs/2501.12948">paper</a></td>
-      <td align="center">이예성</td>
-      <td align="center"><a href="paper/week-05/">paper/week-05/</a></td>
-    </tr>
-    <tr>
-      <td align="center" rowspan="3">6주차<br>(11/14)</td>
+      <td align="center" rowspan="2">6주차<br>(11/14)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=IwpYxANrpUs">Regularization in RL, Why RL Generalizes, and Why SFT Forgets</a></td>
       <td align="center">lec_10</td>
-<td align="center"><a href="https://rlhfbook.com/teach/course/lec10-chap15-regularization/slides.pdf">PDF</a></td>
-      <td align="center">박상혁</td>
+      <td align="center"><a href="https://rlhfbook.com/teach/course/lec10-chap15-regularization/slides.pdf">PDF</a></td>
+      <td align="center">이예성</td>
       <td align="center" rowspan="2"><a href="lecture/week-06/">lecture/week-06/</a></td>
     </tr>
     <tr>
       <td align="center"><a href="https://www.youtube.com/watch?v=GMry2DzC304">Tool Use, Function Calling and The Road to Agents</a></td>
       <td align="center">lec_11</td>
-<td align="center"><a href="https://rlhfbook.com/teach/course/lec11-chap13-tools/slides.pdf">PDF</a></td>
-      <td align="center">조현영</td>
-    </tr>
-    <tr>
-      <td align="center">DAPO: An Open-Source LLM Reinforcement Learning System at Scale (NeurIPS 2025)</td>
-      <td align="center">-</td>
-      <td align="center"><a href="https://arxiv.org/abs/2503.14476">paper</a></td>
+      <td align="center"><a href="https://rlhfbook.com/teach/course/lec11-chap13-tools/slides.pdf">PDF</a></td>
       <td align="center">김정연</td>
-      <td align="center"><a href="paper/week-06/">paper/week-06/</a></td>
     </tr>
     <tr>
-      <td align="center" rowspan="3">7주차<br>(11/21)</td>
+      <td align="center" rowspan="2">7주차<br>(11/21)</td>
       <td align="center"><a href="https://www.youtube.com/watch?v=dFafQmClYq4">The Evolution of Frontier Model Evaluation</a></td>
       <td align="center">lec_12</td>
-<td align="center"><a href="https://rlhfbook.com/teach/course/lec12-chap16-evals/slides.pdf">PDF</a></td>
-      <td align="center">정진웅</td>
+      <td align="center"><a href="https://rlhfbook.com/teach/course/lec12-chap16-evals/slides.pdf">PDF</a></td>
+      <td align="center">박상혁</td>
       <td align="center" rowspan="2"><a href="lecture/week-07/">lecture/week-07/</a></td>
     </tr>
     <tr>
       <td align="center"><a href="https://www.youtube.com/watch?v=xECWRYBxq1E">An Introduction to Character Training</a></td>
       <td align="center">lec_13</td>
-<td align="center"><a href="https://rlhfbook.com/teach/course/lec13-chap17-character/slides.pdf">PDF</a></td>
-      <td align="center">이예성</td>
-    </tr>
-    <tr>
-      <td align="center">Understanding R1-Zero-Like Training: A Critical Perspective (COLM 2025)</td>
-      <td align="center">-</td>
-      <td align="center"><a href="https://arxiv.org/abs/2503.20783">paper</a></td>
+      <td align="center"><a href="https://rlhfbook.com/teach/course/lec13-chap17-character/slides.pdf">PDF</a></td>
       <td align="center">김하종</td>
-      <td align="center"><a href="paper/week-07/">paper/week-07/</a></td>
     </tr>
     <tr>
       <td align="center" rowspan="2">8주차<br>(11/28)</td>
-      <td align="center">Free Process Rewards without Process Labels (ICML 2025)</td>
+      <td align="center">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (Nature 2025)</td>
       <td align="center">-</td>
-      <td align="center"><a href="https://arxiv.org/abs/2412.01981">paper</a></td>
-      <td align="center">조현영</td>
+      <td align="center"><a href="https://arxiv.org/abs/2501.12948">paper</a></td>
+      <td align="center">정진웅</td>
       <td align="center" rowspan="2"><a href="paper/week-08/">paper/week-08/</a></td>
     </tr>
     <tr>
-      <td align="center">Process Reinforcement through Implicit Rewards (TMLR 2026)</td>
+      <td align="center">DAPO: An Open-Source LLM Reinforcement Learning System at Scale (NeurIPS 2025)</td>
       <td align="center">-</td>
-      <td align="center"><a href="https://arxiv.org/abs/2502.01456">paper</a></td>
-      <td align="center">김정연</td>
+      <td align="center"><a href="https://arxiv.org/abs/2503.14476">paper</a></td>
+      <td align="center">이예성</td>
     </tr>
     <tr>
       <td align="center" rowspan="2">9주차<br>(12/05)</td>
-      <td align="center">Visual-RFT: Visual Reinforcement Fine-Tuning (ICCV 2025)</td>
+      <td align="center">Understanding R1-Zero-Like Training: A Critical Perspective (COLM 2025)</td>
       <td align="center">-</td>
-      <td align="center"><a href="https://arxiv.org/abs/2503.01785">paper</a></td>
-      <td align="center">박상혁</td>
+      <td align="center"><a href="https://arxiv.org/abs/2503.20783">paper</a></td>
+      <td align="center">김정연</td>
       <td align="center" rowspan="2"><a href="paper/week-09/">paper/week-09/</a></td>
     </tr>
     <tr>
+      <td align="center">Free Process Rewards without Process Labels (ICML 2025)</td>
+      <td align="center">-</td>
+      <td align="center"><a href="https://arxiv.org/abs/2412.01981">paper</a></td>
+      <td align="center">박상혁</td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2">10주차<br>(12/12)</td>
+      <td align="center">Process Reinforcement through Implicit Rewards (TMLR 2026)</td>
+      <td align="center">-</td>
+      <td align="center"><a href="https://arxiv.org/abs/2502.01456">paper</a></td>
+      <td align="center">김하종</td>
+      <td align="center" rowspan="2"><a href="paper/week-10/">paper/week-10/</a></td>
+    </tr>
+    <tr>
+      <td align="center">Visual-RFT: Visual Reinforcement Fine-Tuning (ICCV 2025)</td>
+      <td align="center">-</td>
+      <td align="center"><a href="https://arxiv.org/abs/2503.01785">paper</a></td>
+      <td align="center">정진웅</td>
+    </tr>
+    <tr>
+      <td align="center">11주차<br>(12/19)</td>
       <td align="center">Perception-Aware Policy Optimization for Multimodal Reasoning (ICLR 2026)</td>
       <td align="center">-</td>
       <td align="center"><a href="https://arxiv.org/abs/2507.06448">paper</a></td>
-      <td align="center">정진웅</td>
+      <td align="center">이예성</td>
+      <td align="center"><a href="paper/week-11/">paper/week-11/</a></td>
     </tr>
   </tbody>
 </table>
